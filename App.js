@@ -6,9 +6,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 function HomeScreen({ navigation }) {
 return (
 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-<Text>inseir caracteristicas da laura</Text>
+<Text> a Laura é uma pessoa que tem uns assuntos muito bons nos quais me indentifico com alguns</Text>
 <Button
-title="Daina"
+title="Adrielly"
 onPress={() => navigation.navigate('Details')} />
 </View>
  );
@@ -18,7 +18,7 @@ onPress={() => navigation.navigate('Details')} />
 function DetailsScreen({ navigation }) {
 return (
 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-<Text>inserir caracteristicas da daiana</Text>
+<Text>escolhi a drielly pois ela é uma pessoa muito gente boa e simpatica</Text>
 <Button
 title="Go to Details... again"
 onPress={() => navigation.push('Details')}
